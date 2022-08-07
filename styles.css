@@ -1,0 +1,181 @@
+.outer-part {
+    background-color: rgb(161, 240, 214);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 500px;
+    height: 600px;
+}
+.outer-text {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 50%;
+    transform: translate(-40%,190%);
+}
+.outer-text p {
+    margin: 0px;
+    letter-spacing: 10px;
+    
+}
+.outer-text .second {
+    margin-top: 10px;
+}
+.inner-part {
+    width: 450px;
+    height: 290px;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    left: 25px;
+    transform: translateY(45%);
+    margin-top: 10px;
+}
+.part-1 p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-block-end: 0px;
+    color: rgba(0, 0, 0, 0.507);
+}
+.part-1 input {
+    width: 240px;
+    height: 25px;
+    background-color:rgb(229, 243, 238);
+    border: none;
+}
+.part-1 p,input {
+    margin-left: 10px;
+}
+.part-2  {
+    margin-left: 10px;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+.part-2 p  {
+    margin: 0em;
+}
+.button-part1 {
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.first-button, .second-button {
+    background-color:rgb(4, 87, 59) ;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin: 0px;
+    width: 70px;
+    padding: 10px 3px;
+    color: white;
+}
+.first-button:not(:first-child) {
+    margin-left: 15px;
+}
+.button-part2 {
+    display: flex;   
+}
+.second-button:not(:first-child) {
+    margin-left: 15px;
+}
+.button-part2 .custom {
+    background-color:rgb(229, 243, 238) ;
+    color: black;
+    border: none;
+    font-weight: bolder;
+}
+.part-3 {
+    display: flex;
+    flex-direction: column;
+    line-height: 0px;
+}
+.part-3 p {
+    margin: 0px;
+    margin-left: 10px;
+    font-size: 13px;
+    font-weight: 100px;
+    padding-bottom: 10px;
+}
+.search-wrapper {
+    position: relative;
+    background-color: none;
+}
+.part-3 input {
+    background-color: rgb(208, 243, 231) ;
+    width: 240px;
+    height: 25px;
+    border: none;
+}
+.part-3  img{
+    position: absolute;
+    left: 20px;
+    padding-top: 5px;
+    width: 15px;
+    height: 15px;
+}
+.inner-child {
+    position: absolute;
+   /* display: flex;
+    flex-direction: column;*/
+    left: 50%;
+    transform: translate(30%, 60%);
+    background-color:rgb(6, 116, 79);
+    border-radius: 10px;
+    width: 165px;
+    height: 260px;
+}
+.inner-text-1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.inner-text-1 p {
+    margin: 0px;
+    padding-right: 10px;
+    font-size: 12px;
+}
+.text-1 {
+    letter-spacing: 2px;
+}
+.text-1, .text-2, .text-5 {
+    color: white;
+}
+.text-3,.text-4, .text-6, .text-7 {
+    color: rgb(179, 175, 175);
+}
+.inner-child input {
+    position: relative;
+    left: 75px;
+    width: 62px;
+    font-size: 25px;
+    margin-top: 5px;
+    background-color:transparent;
+    border: none;
+    bottom:110px ;
+}
+.inner-text-2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.inner-text-2 p {
+    margin: 0px;
+    padding-right: 10px;
+    font-size: 12px;
+}
+.second-input {
+    padding-top:25px;
+}
+::placeholder {
+    color:rgb(21, 243, 165)  ;
+}
+.inner-child button {
+    width: 150px;
+    height: 30px;
+    margin-left: 7px;
+    border: none;
+    background-color: rgb(49, 231, 168) ;
+    
+}
+.text-8 {
+   margin: 0px; 
+}
